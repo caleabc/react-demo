@@ -1,0 +1,33 @@
+.map-grid {
+    display: inline-block;
+    border: 3px solid #ccc;
+}
+
+.map-row {
+    display: flex;
+}
+
+.default-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+  border: 3px solid #ccc;
+  font-size: 25px; /* This also affect icon size */
+  height: 25px;
+  width: 25px;
+}
+
+.selected-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: gray;
+  background-color: gray;
+  border: 3px solid #ccc;
+  font-size: 5rem;
+  height: 25px;
+  width: 25px;
+}
